@@ -20,7 +20,7 @@ from unittest import TestCase
 
 import numpy as np
 
-from ikats.algo.op-cut_y import cut_y, LOGGER
+from ikats.algo.cut_y import cut_y, LOGGER
 from ikats.core.resource.api import IkatsApi
 
 
