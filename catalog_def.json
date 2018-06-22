@@ -2,7 +2,8 @@
   "name": "cuty",
   "label": "Cut-Y",
   "description": "Cut timeseries among Y-axis and produce 2 timeseries matching/not matching the cut condition",
-  "family": "Preprocessing_TS__Reduction",  "entry_point": "op-cut_y::cut_y",
+  "family": "Preprocessing_TS__Reduction",
+  "entry_point": "cut_y.cut_y::cut_y",
   "inputs": [
     {
       "name": "ts_list",
